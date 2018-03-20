@@ -23,7 +23,14 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+
+.icon {
+       width: 24px; height: 24px;
+       fill: #A5ADB0;
+       overflow: hidden;
+    }
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,16 +42,14 @@ export default {
 }
 
 main{
-  background: #888888;
   display:flex;
-}
-
-main > .editor{
+  height:100vh;
+  > .editor{
   width:20em;
 }
-
-main > .preview{
+  > .preview{
   flex-grow:1
+}
 }
 
 
